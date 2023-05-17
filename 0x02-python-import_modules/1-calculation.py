@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__" :
-    """Performs varied calculations like multiplication, addtion, subtraction"""
     from calculator_1 import add, sub, mul, div
 
     a = 10
