@@ -1,14 +1,11 @@
 #!/usr/bin/python3
 
-
-def multiple_returns(sentence):
-    """
-    Returns a tuple with the length of a string and its first
-    character
-    """
-    s_len = len(sentence)
-    if s_len == 0:
-        f_char = None
+def max_integer(my_list=[]):
+    if len(my_list) == 0:
+        return None
     else:
-        f_char = sentence[0]
-    return ((s_len, f_char))
+        max = my_list[0]
+        for i in range(len(my_list)):
+            if my_list[i] > max:
+                max = my_list[i]
+        return max
