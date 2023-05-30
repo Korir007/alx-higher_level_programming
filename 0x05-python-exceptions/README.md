@@ -1,0 +1,1 @@
+A project about error handling and exceptions in Python using try and except.
