@@ -3,7 +3,8 @@
 This is a project on introduction to javascript.
 A course unit under Software Engineering offered by ALX.
 
-###WHAT WAS COVERED:
+### WHAT WAS COVERED:
+
 -Basics of wrting javascript.
 -Variables
 -Data types
